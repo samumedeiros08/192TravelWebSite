@@ -1,0 +1,205 @@
+/* Set fonts */
+
+h1, h2 {
+    font-family: Oswald, sans-serif;
+    font-weight: 500;
+    
+    letter-spacing: .2em;
+    font-size: 3em;
+}
+
+h3, h4, h5 {
+    font-family: Oswald, sans-serif;
+    font-weight: 400 ;
+}
+
+/* Body */
+
+body, html {
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+}
+
+
+/* CONTAINER HEADING */
+.container-head {
+    background-image: url(img/bkg.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.services {
+    background-image: url(img/services/bkg.jpeg);
+    width: 100%;
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-shadow: grey 1px 0 10px;
+    
+
+}
+
+.ourHistory {
+    background-image: url(img/History/bkg2.jpeg);
+    width: 100%;
+    height: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-shadow: grey 1px 0 10px;
+}
+
+.startPlanning {
+    background-image: url(img/startplanning/bkg.jpeg);
+    width: 100%;
+    height: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-shadow: black 1px 0 5px;
+}
+
+.faq {
+    background-image: url(img/FAQ/bkg.jpeg);
+    width: 100%;
+    height: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-shadow: grey 1px 0 10px;
+}
+
+.contact {
+    background-image: url(img/Contact/bkg.avif);
+    width: 100%;
+    height: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-shadow: black 1px 0 7px;
+}
+
+
+.header {
+    color: #8EAC50;
+    text-align: center;
+    text-transform: uppercase;
+    backdrop-filter: grayscale(80%);
+}
+.header h1 {
+    color: #D3D04F;
+    position: relative;
+    top: 280px;
+}
+
+.imageHead {
+    transform: scale(.5) translate(-100%, -60%);    
+    
+}
+
+@media only screen and (max-width: 720px) {
+    .imageHead {
+        transform: scale(.8) translate(-60%, -30%); 
+        
+    }
+}
+
+.header h2 {
+    font-size: 1.5em;
+    position: relative;
+    top: 330px;
+    letter-spacing: .2em;
+
+}
+
+.header p{
+    position: relative;
+    top: 400px;
+    letter-spacing: 0.6em;
+    font-size: 1.2em;
+
+}
+
+
+/* HOW IT WORKS */
+
+.container-howWorks {
+    background-color: #213363;
+    width: 100%;
+    color: beige;
+
+}
+
+
+
+.container-howWorks h3 {
+    font-size: 1.5em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+
+.arrow {
+    min-width: 32px;
+}
+
+/* Why192*/
+
+.container-why192 {
+
+    background-color: rgb(238, 210, 174);
+    color: #213363;
+    
+}
+
+.card {
+    background-color: transparent; 
+    border:0;
+}
+
+.card p, .card h5 {
+    color: #213363;
+}
+
+
+/* cards clients*/
+
+.w-100 {
+    width: 100%;
+    height: 75vh;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* footer */
+
+.price{
+    background-color:#17594A ; 
+    color: beige; 
+    box-shadow: 3px 3px 10px #555
+}
+
+
+/* card plans */
+
+.cardplans {
+    bottom: 0px;
+    transition: bottom 0.5s ease-in-out;
+}
+
+.cardplans:hover{
+    bottom: 20px;
+}
+
+/* OUR HISTORY */
+
+
+
+/* QUESTIONARY */
+
+.hidden{
+    display: none;
+}

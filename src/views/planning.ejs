@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start Planning | 192 Viagens</title>
+    <link rel="icon" type="image/x-icon" href="CSS/192logo03_OeG_icon.ico">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,100;1,300;1,400;1,700&family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+</head>
+<body style="background-color: #213363; color: beige;" >
+
+    <!-- Nav & Header Services -->
+
+    <div class="startPlanning container-head position-relative">
+
+        <!-- NavBar -->
+        <nav class="navbar navbar-expand-md bg-body-tertiary bg-opacity-50 fixed-top" data-bs-theme="dark">
+            <div class="container-fluid">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">
+                    <img src="CSS/img/LOGO/192LOGO03.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top" style="transform:scale(2)">
+                    192 Viagens
+                    </a>
+                </div>
+
+                <button class="navbar-toggler position-absolute top-0 end-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Services
+                            </a>
+                            <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="services.html">Consultancy</a></li>
+                            <li><a class="dropdown-item" href="services.html">Personalized Routes</a></li>
+                            </ul>
+                        </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-nowrap" aria-current="page" href="ourHistory.html">Our History</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-nowrap" href="startplanning.html">Start Planning</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-nowrap" href="faq.html">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-nowrap" href="contact.html">Contact</a>
+                    </li>
+                    
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- NavBar -->
+        <!-- Head -->
+        <div class="position-absolute top-50 start-50 translate-middle text-uppercase" style="color: #8EAC50;">
+            <h2>Start Planning</h2>
+        </div>
+        <!-- Head -->
+    </div>
+
+<!-- START PLANNING -->
+
+    <div class="container">
+        <h3 class="py-3">Start Planning Questionary</h3>
+        <p>Before planning your travel is very most important to know you better</p>
+        <p>Let's run a quick test to identify the type of traveller that you are</p>
+
+        <div class="questionary">
+           <ol class="list-group list-group-numbered">
+
+            <!-- question 1 -->
+                <li class="list-group-item fw-bold py-3" style="background-color: beige; color: #213363;">How do you prioritize your travel budget?
+                    
+                    <ul id="q1" class="fw-normal">
+                        <li  >
+                            <input  type="radio" value="a" name="1" class="radioQuestion" id="q1a">
+                            <label for="q1a"> I look for the most economical options to save money</label>
+                        </li>
+                        <li >
+                            <input  type="radio" value="b" name="1" class="radioQuestion" id="q1b">
+                            <label for="q1b">  I try to find a balance between affordability and quality.</label>
+                        </li>
+                        <li>
+                            <input  type="radio" value="c" name="1" class="radioQuestion" id="q1c">
+                            <label for="q1c">I don't mind spending more for exclusive experiences.</label>
+                        </li>
+                    </ul>
+                </li>
+                <!-- queston2 -->
+                <li class="list-group-item fw-bold py-3" style="background-color: beige; color: #213363;">What activities do you enjoy the most during vacations?
+                    <ul id="q2" class="fw-normal">
+                        <li>
+                            <input  type="radio" value="a" name="2" class="radioQuestion" id="q2a">
+                            <label for="q2a"> Thrilling adventures and outdoor activities.</label>
+                        </li>
+                        <li>
+                            <input  type="radio" value="b" name="2" class="radioQuestion" id="q2b">
+                            <label for="q2b">Exploring local culture, museums, and historical sites.</label>
+                        </li>
+                        <li>
+                            <input  type="radio" value="c" name="2" class="radioQuestion" id="q2c">
+                            <label for="q2c">Indulging in unique food and wine experiences.</label>
+                        </li>
+                    </ul>
+                </li>
+                <!-- question3 -->
+                <li class="list-group-item fw-bold py-3" style="background-color: beige; color: #213363;">Who do you usually travel with?
+                    <ul id="q3" class="fw-normal">
+                        <li>
+                            <input type="radio" value="a" name="3" class="radioQuestion" id="q3a">
+                            <label for="q3a"> Alone or with a small group of friends.</label>
+                        </li>
+                        <li> 
+                            <input  type="radio" value="b" name="3" class="radioQuestion" id="q3b">
+                            <label for="q3b">Family or with children.</label>
+                        </li>
+                        <li>
+                            <input type="radio" value="c" name="3" class="radioQuestion" id="q3c">
+                            <label for="q3c">Partner or a group of friends.</label>
+                        </li>
+                    </ul>
+                </li>
+
+                <!-- question4 -->
+                <li class="list-group-item fw-bold py-3" style="background-color: beige; color: #213363;">What type of accommodation do you prefer?
+                    <ul id="q4" class="fw-normal">
+                        <li >
+                            <input type="radio" value="a" name="4" class="radioQuestion" id="q4a">
+                            <label for="q4a"> Budget-friendly hostels or budget hotels.</label>
+                        </li>
+                        <li>
+                            <input type="radio" value="b" name="4" class="radioQuestion" id="q4b">
+                            <label for="q4b">Comfortable mid-range hotels or vacation rentals.</label>
+                        </li>
+                        <li>
+                            <input type="radio" value="c" name="4" class="radioQuestion" id="q4c">
+                            <label for="q4c">Luxurious resorts or boutique hotels.</label>
+                        </li>
+                    </ul>
+                </li>
+                <!-- Question5 -->
+                <li class="list-group-item fw-bold py-3" style="background-color: beige; color: #213363;">How important is environmental sustainability to you while traveling?
+                    <ul id="q5" class="fw-normal">
+                        <li>
+                            <input type="radio" value="a" name="5" class="radioQuestion" id="q5a">
+                            <label for="q5a"> It's a top priority. I prefer eco-friendly options whenever possible.</label>
+                        </li>
+                        <li>
+                            <input type="radio" value="b" name="5" class="radioQuestion" id="q5b">
+                            <label for="q5b">I consider it but may not always choose the most eco-conscious options.</label>
+                        </li>
+                        <li>
+                            <input type="radio" value="c" name="5" class="radioQuestion" id="q5c">
+                            <label for="q5c">It's not a primary concern for me.</label>
+                        </li>
+                    </ul>
+                </li>
+                <!--    QUESTION 6 -->
+                <li class="list-group-item fw-bold py-3" style="background-color: beige; color: #213363;">What's your main goal when traveling?
+                    <ul id="q6" class="fw-normal">
+                        <li>
+                            <input type="radio" value="a" name="6" class="radioQuestion" id="q6a">
+                            <label for="q6a"> Seeking adventure and adrenaline rushes.</label>
+                        </li>
+                        <li>
+                            <input type="radio" value="b" name="6" class="radioQuestion" id="q6b">
+                            <label for="q6b">Immersing in different cultures and learning about history.</label>
+                        </li>
+                        <li>
+                            <input type="radio" value="c" name="6" class="radioQuestion" id="q6c">
+                            <label for="q6c">Relaxing and enjoying exclusive experiences.</label>
+                        </li>
+                    </ul>
+                </li>
+                <!--    QUESTION 7 -->
+                <li class="list-group-item fw-bold py-3" style="background-color: beige; color: #213363;">How often do you travel?
+                    <ul id="q7" class="fw-normal">
+                        <li>
+                            <input type="radio" value="a" name="7" class="radioQuestion" id="q7a">
+                            <label for="q7a">Frequently, I love exploring new places.</label>
+                        </li>
+                        <li>
+                            <input type="radio" value="b" name="7" class="radioQuestion" id="q7b">
+                            <label for="q7b">A few times a year for vacations or family trips.</label>
+                        </li>
+                        <li>
+                            <input type="radio" value="c" name="7" class="radioQuestion" id="q7c">
+                            <label for="q7c">Occasionally, usually for special occasions.</label>
+                        </li>
+                    </ul>
+                </li>
+                <!--    QUESTION 8 -->
+                <li class="list-group-item fw-bold py-3" style="background-color: beige; color: #213363;">How do you plan your trips?
+                    <ul id="q8" class="fw-normal">
+                        <li>
+                            <input type="radio" value="a" name="8" class="radioQuestion" id="q8a">
+                            <label for="q8a">I prefer spontaneous trips with minimal planning.</label>
+                        </li>
+                        <li>
+                            <input type="radio" value="b" name="8" class="radioQuestion" id="q8b">
+                            <label for="q8b">I like to have a general itinerary but leave room for flexibility.</label>
+                        </li>
+                        <li>
+                            <input type="radio" value="c" name="8" class="radioQuestion" id="q8c">
+                            <label for="q8c">I plan every detail to ensure a seamless and luxurious experience.</label>
+                        </li>
+                    </ul>
+                </li>
+           </ol>
+
+           <button type="submit" id="submitQuestionary" class="btn btn-secondary my-3">Submit Questionary</button>
+        </div>
+           
+    </div>
+
+    <!-- Questionary RESULT -->
+
+    <div class="container my-3 rounded-1" style="background-color: beige; color: #213363;">
+        <div class="hidden" id="type1"> 
+            <h4>You are a Budget-Focused Traveler:</h4>
+            <p>Budget Travelers: Conscious of their spending, seeking economical accommodations, transportation, and activities.</p>
+            <p>Weekend Escapers: Looking for short, affordable getaways to nearby destinations.</p>
+        </div>
+        <div class="hidden" id="type2">
+            <h4>You are a Experience-Seeking Traveler:</h4>
+            <p>Adventure Seekers: Prioritizing thrilling and adrenaline-pumping activities.</p>
+            <p>Cultural Enthusiasts: Interested in immersing themselves in diverse cultures, history, and local traditions.</p>
+            <p>Food and Wine Connoisseurs: Seeking unique culinary experiences and wine tastings.</p>
+        </div>
+        <div class="hidden" id="type3">
+            <h4>You are a Comfort and Luxury Traveler:</h4>
+            <p>Luxury Travelers: Preferring high-end experiences, luxury accommodations, and exclusive activities.</p>
+        </div>
+        <div class="hidden" id="type4">
+            <h4>You are a Social and Family-Oriented Traveler:</h4>
+            <p>Family Vacationers: Traveling with family and seeking family-friendly destinations and activities.</p>
+        </div>
+        <div class="hidden" id="type5">
+            <h4>You are a Personal Explorers and Eco-Conscious Traveler:</h4>
+            <p>BSolo Explorers: Independent travelers seeking self-discovery and immersive experiences.</p>
+            <p>Eco-Conscious Travelers: Environmentally aware tourists prioritizing sustainable and responsible travel options.</p>
+        </div>
+        
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start" style="background-color: #8EAC50; color: #213363">
+        <!-- Section: Social media -->
+            <section class="d-flex justify-content-center p-4 border-bottom">
+        <!-- Left -->
+                <div class="me-5 d-none d-md-block">
+                    <span>Get connected with us on social networks:</span>
+                </div>
+        <!-- Left -->
+    
+        <!-- Right -->
+                <div class="" style="color: beige;">
+                    <a href=https://www.instagram.com/192viagens/ target="_blank" class="me-4 text-reset" ><i class="fa-brands fa-instagram"></i></a>
+                    <a href="" target="_blank" class="me-4 text-reset" ><i class="fa-brands fa-facebook"></i></a>
+                    <a href="" target="_blank" class="me-4 text-reset" ><i class="fa-brands fa-youtube"></i></a>
+                
+                </div>
+        <!-- Right -->
+                </section>
+        <!-- Section: Social media -->
+    
+                <!-- Section: Links  -->
+                <section class="">
+                <div class="container text-center text-md-start mt-5">
+                    <!-- Grid row -->
+                    <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <!-- Content -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            <i class="fa-solid fa-location-dot">  </i> 192 Viagens
+                        </h6>
+                        <p>
+                        Everything you need for the best travel experience
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+                
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                        Products
+                        </h6>
+                        <p>
+                        <a href="services.html" class="text-reset">Consultancy</a>
+                        </p>
+                        <p>
+                        <a href="services.html" class="text-reset">Personalized Routes</a>
+                        </p>
+                        
+                    </div>
+                    <!-- Grid column -->
+                
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                        Useful links
+                        </h6>
+                        <p>
+                        <a href="ourHistory.html" class="text-reset">Our History</a>
+                        </p>
+                        <p>
+                        <a href="startplanning.html" class="text-reset">Start Planning</a>
+                        </p>
+                        <p>
+                        <a href="faq.html" class="text-reset">FAQ</a>
+                        </p>
+                        
+                    </div>
+                    <!-- Grid column -->
+                
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                        <p><i class="fas fa-home me-3"></i> @192viagens</p>
+                        <p>
+                        <i class="fas fa-envelope me-3"></i>
+                        192viagens@gmail.com
+                        </p>
+                        <p><i class="fas fa-phone me-3"></i> +61 0413 154 516</p>
+                    </div>
+                    <!-- Grid column -->
+                    </div>
+                    <!-- Grid row -->
+                </div>
+                </section>
+                <!-- Section: Links  -->
+            
+                <!-- Copyright -->
+                <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.1);">
+                © 2023 Copyright |    
+                <a class="text-reset text-decoration-none fw-bold" href="https://192viagens.com/">192viagens.com</a>
+                </div>
+                <!-- Copyright -->
+        </footer>
+    <!-- Footer -->
+
+        
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>    
+    <script src="https://kit.fontawesome.com/6fc218cbb0.js" crossorigin="anonymous"></script>
+    <script src="script/questionary.js"></script>
+    <script src="https://web3forms.com/client/script.js" async defer></script>
+</body>
+</html>

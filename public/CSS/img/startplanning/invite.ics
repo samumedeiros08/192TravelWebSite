@@ -1,0 +1,100 @@
+BEGIN:VCALENDAR
+METHOD:REQUEST
+PRODID:Microsoft Exchange Server 2010
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:AUS Eastern Standard Time
+BEGIN:STANDARD
+DTSTART:16010101T030000
+TZOFFSETFROM:+1100
+TZOFFSETTO:+1000
+RRULE:FREQ=YEARLY;INTERVAL=1;BYDAY=1SU;BYMONTH=4
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010101T020000
+TZOFFSETFROM:+1000
+TZOFFSETTO:+1100
+RRULE:FREQ=YEARLY;INTERVAL=1;BYDAY=1SU;BYMONTH=10
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ORGANIZER;CN=Benjamin Seaman:mailto:benjamin.seaman@epicpharmacy.com.au
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Lillian Ib
+ rahim:mailto:Lillian.Ibrahim@epicpharmacy.com.au
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=amandaffc.
+ carvalho@gmail.com:mailto:amandaffc.carvalho@gmail.com
+DESCRIPTION;LANGUAGE=en-US:Hi Amanda\,\n\n\n\nI am pleased to confirm that 
+ you are booked in for an interview for the Pharmacy Technician role at Epi
+ c Pharmacy North Sydney (within Mater Hospital). The details for your inte
+ rview are as follows:\n\n\n\n\n\nDate: Thursday 10th of August 2023\n\n\n\
+ nTime: 4pm AEST (please allow 30 minutes for the interview)\n\n\n\nAddress
+ : via Microsoft Teams – please accept the invitation sent through via em
+ ail (separately to this) and check you are able to access this prior to th
+ e interview.\n\n\n\nInterviewer(s): Ben Seaman (Director of Pharmacy) and 
+ Lillian Ibrahim (Clinical Pharmacist)\n\n\n\n\n\n\n\nWhat do I need to pro
+ vide prior to the interview? Proof of your right to work in Australia and 
+ proof of COVID-19 double vaccination. Please reply to this email with a co
+ py of your documents. For proof of working rights\, this may be:\n\n\n\n\n
+ \n\n\n  *   An Australian birth certificate accompanied with photographic 
+ ID\, or\n\n\n\n  *   An Australian passport\, or\n\n\n\n  *   A non-Austra
+ lian passport with any relevant visas.\n\n\n\n\n\n\n\nPrior to the intervi
+ ew\, please review our company website to familiarise yourself with our or
+ ganisation.\n\n\n\n\n\n\n\nWarm Regards\,\n\n_____________________________
+ ___________________________________________________\nMicrosoft Teams meeti
+ ng\nJoin on your computer\, mobile app or room device\nClick here to join 
+ the meeting<https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZjQyOTQ
+ zMDctNDhkNi00MzE5LTkyYmQtM2NkNmQzMzdlNzRi%40thread.v2/0?context=%7b%22Tid%
+ 22%3a%22d8de5f8b-6e75-4a3e-be66-261a31137ccf%22%2c%22Oid%22%3a%228b26fe4a-
+ b77d-4ba0-83f8-b09230bc77e7%22%7d>\nMeeting ID: 477 432 866 016\nPasscode:
+  wXbMFx\nDownload Teams<https://www.microsoft.com/en-us/microsoft-teams/do
+ wnload-app> | Join on the web<https://www.microsoft.com/microsoft-teams/jo
+ in-a-meeting>\nLearn More<https://aka.ms/JoinTeamsMeeting> | Meeting optio
+ ns<https://teams.microsoft.com/meetingOptions/?organizerId=8b26fe4a-b77d-4
+ ba0-83f8-b09230bc77e7&tenantId=d8de5f8b-6e75-4a3e-be66-261a31137ccf&thread
+ Id=19_meeting_ZjQyOTQzMDctNDhkNi00MzE5LTkyYmQtM2NkNmQzMzdlNzRi@thread.v2&m
+ essageId=0&language=en-US>\n______________________________________________
+ __________________________________\n\n
+UID:040000008200E00074C5B7101A82E008000000000070DA658ACBD901000000000000000
+ 010000000D4EDAABDA05C6B47BBBEB1008736322B
+SUMMARY;LANGUAGE=en-US:Imprest Technician Interview - Mater Hospital North 
+ Sydney
+DTSTART;TZID=AUS Eastern Standard Time:20230810T160000
+DTEND;TZID=AUS Eastern Standard Time:20230810T163000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20230810T030012Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION;LANGUAGE=en-US:Microsoft Teams Meeting
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-OWNERAPPTID:-712341529
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-SKYPETEAMSMEETINGURL:https://teams.microsoft.com/l/meetup-join/
+ 19%3ameeting_ZjQyOTQzMDctNDhkNi00MzE5LTkyYmQtM2NkNmQzMzdlNzRi%40thread.v2/
+ 0?context=%7b%22Tid%22%3a%22d8de5f8b-6e75-4a3e-be66-261a31137ccf%22%2c%22O
+ id%22%3a%228b26fe4a-b77d-4ba0-83f8-b09230bc77e7%22%7d
+X-MICROSOFT-SCHEDULINGSERVICEUPDATEURL:https://api.scheduler.teams.microsof
+ t.com/teams/d8de5f8b-6e75-4a3e-be66-261a31137ccf/8b26fe4a-b77d-4ba0-83f8-b
+ 09230bc77e7/19_meeting_ZjQyOTQzMDctNDhkNi00MzE5LTkyYmQtM2NkNmQzMzdlNzRi@th
+ read.v2/0
+X-MICROSOFT-SKYPETEAMSPROPERTIES:{"cid":"19:meeting_ZjQyOTQzMDctNDhkNi00MzE
+ 5LTkyYmQtM2NkNmQzMzdlNzRi@thread.v2"\,"private":true\,"type":0\,"mid":0\,"
+ rid":0\,"uid":null}
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-LOCATIONS:[ { "DisplayName" : "Microsoft Teams Meeting"\, "Loca
+ tionAnnotation" : ""\, "LocationSource" : 0\, "Unresolved" : false\, "Loca
+ tionUri" : "" } ]
+BEGIN:VALARM
+DESCRIPTION:REMINDER
+TRIGGER;RELATED=START:-PT15M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+END:VCALENDAR

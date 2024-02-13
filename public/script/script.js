@@ -1,0 +1,1 @@
+document.querySelector('.weather').innerHTML = `The temperature in ${res.locals.cit} is ${res.locals.temp}`;
