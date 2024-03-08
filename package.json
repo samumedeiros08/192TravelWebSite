@@ -1,6 +1,6 @@
 {
   "engines": {
-    "node": "14.x"
+    "node": "20.x" 
   },
   "dependencies": {
     "@google-cloud/translate": "^8.0.2",
